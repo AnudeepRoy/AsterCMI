@@ -1,0 +1,271 @@
+body, html{
+    overflow-x: hidden;
+}
+.header_section{
+    width: 100%;
+    height: 75vh;
+    background:url('https://asterhospitals.in/sites/default/files/styles/optimize_images/public/2021-02/Paediatrics.jpg?itok=RcE_CObP');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    padding: 30px 0;
+    margin: 0 0 50px;
+}
+.header_section h1, .header_section h2, .header_section h3{
+    font-weight: bold;
+}
+.header_section p{
+    text-transform: capitalize;
+    margin: 0 0 30px;
+}
+.header_section h3{
+    text-transform: uppercase;
+}
+.link_section{
+    margin: 0 0 20px;
+}
+.link_section a {
+    font-size: 30px;
+    color: #fff;
+    padding: 0 20px;
+    border-right: 1px solid;
+    text-transform: capitalize;
+}
+.link_section a:first-child{
+    padding-left: 0;
+}
+.link_section a:last-child{
+    border-right: none;
+}
+.header_section button, .header_section button:hover{
+    color: #fff;
+    background: #dd5a6a;
+    border: 1px solid #dd5a6a;
+    margin: 10px 0;
+}
+.bone_marrow{
+    margin: 0 0 50px;
+}
+.bone_marrow img{
+    max-width: 100%;
+}
+.bone_marrow h3.bmt{
+    background-image: linear-gradient(to right, #3bafc5 , #5f79e9);
+    color: #fff;
+    font-size: 19px;
+    padding: 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin: 0 0 30px;
+}
+.marrow_statements p{
+    font-size: 17px;
+    margin: 0;
+    padding: 20px 0;
+    border-bottom: 1px solid;
+    color: #808080;
+}
+.marrow_statements p:first-child{
+    padding: 0 0 20px
+}
+.marrow_statements p:last-child{
+    border-bottom: none;
+}
+.doctors_section{
+    margin: 0 0 50px;
+    position: relative;
+    opacity: 0;
+    top: 60px;
+    transition: 1s;
+}
+.doctors_section h2{
+    color: #22b78e;
+    font-weight: bold;
+}
+.doctors_section .card{
+    width: 100%;
+    text-align: center;
+    background: #f9f9ff;
+}
+.doctors_section .card .doc_title{
+    color:#22b78e;
+    margin: 20px 0;
+    font-weight: bold;
+}
+.doctors_section .card .card-body{
+    text-align: center;
+}
+.doctors_section .card .card-body .card-title{
+    color: #3068ae;
+    font-weight: bold;
+}
+.doctors_section .card .card-body .card-text{
+    color: #3068ae;
+    margin: 0;
+}
+.doctors_section .card .card-body .green_line{
+    color: #22b78e;
+    font-weight: bold;
+}
+.doctors_section .img_container{
+    display: flex;
+    justify-content: center;
+}
+.doctors_section .img_container img{
+    width: 150px;
+}
+.doctors_section .card .card-body a.btn{
+    background-image: linear-gradient(to right, #3bafc5 , #5f79e9);
+    color: #fff;
+    padding: 10px 20px;
+}
+.marrow_types, .immune_def, .faq_section, .testimonials{
+    margin: 0 0 50px;
+}
+.marrow_types h2{
+    color: #22b78e;
+    font-weight: bold;
+}
+.marrow_types ul.marrow_list li{
+    line-height: 2.5;
+    color: #808080;
+    font-size: 17px;
+}
+.immune_def h2, .testimonials h2{
+    color: #22b78e;
+    font-weight: bold;
+}
+.imm_desc{
+    padding: 10px 20px;
+    border: 1px solid #ecefff;
+    box-shadow: 5px 10px 18px #ecefff;
+    border-radius: 5px;
+    margin: 15px 0;
+    transform: scale(0.5);
+    opacity: 0;
+}
+.imm_desc i{
+    color: #22b78e;
+    font-size: 30px;
+    margin: 0 0 15px;
+}
+.faq_section .card{
+    border: none;
+    font-size: 20px;
+    position: relative;
+    top: 60px;
+    opacity: 0;
+}
+.faq_section .card .card-header a, .faq_section .card .card-header{
+    background: none;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    color: #1d5aa6;
+    line-height: 2.5;
+}
+.testimonials p{
+    color: #808080;
+}
+.owl-stage{
+    display: flex;
+}
+.testimonials .item{
+    padding: 10px;
+    margin: 30px 0;
+    box-shadow: 5px 10px 18px #e6e6e6;
+}
+.testimonials .owl-item{
+    width: 300px;
+}
+.testimonials .owl-nav{
+    font-size: 40px;
+}
+.testimonials .owl-prev:hover, .testimonials .owl-next:hover{
+    cursor: pointer;
+}
+.enquire_container{
+    background: white;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+}
+.enquire_container h4{
+    color: #26395d;
+    margin: 0 0 25px;
+}
+.enquire_container input{
+    font-size: 14px;
+}
+.enquire_container textarea {
+    resize: none;
+    font-size: 14px;
+ }
+ .enquire_container button{
+    border-radius: 0;
+    padding: 10px 30px;
+ }
+ .enquire_container .captcha{
+    border: 1px solid #ced4da;
+    padding: 10px;
+    color: #978c97;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+ }
+ .enquire_container .captcha .form-check{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+ }
+ .enquire_container .captcha img{
+     max-width: 50px;
+ }
+ .footer{
+    background: #272727;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+ }
+ .footer .social_list{
+    display: flex;
+    justify-content: center;
+    padding: 0 0 20px;
+    margin: 0 0 20px;
+    border-bottom: 1px solid #2f2f2f;
+ }
+ .footer .social_list img{
+    max-width: 30px;
+    margin: 0 5px;
+ }
+ .footer .disclaimer p{
+     color: #7c7c7c;
+     text-align: center;
+ }
+ .identity{
+     display: flex;
+     margin: 0 0 20px;
+ }
+ .identity .id_image{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+ }
+ .identity .id_image img{
+     max-width: 50px;
+     border-radius: 50%;
+     margin: 0 10px;
+ }
+ .identity .id_details h3, .identity .id_details p{
+     margin: 0;
+ }
+@media(max-width: 767px){
+    .header_section{
+        height: auto;
+        text-align: center;
+    }
+	.owl-stage-outer{
+		overflow-x: auto;
+	}
+}
